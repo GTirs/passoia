@@ -1,5 +1,5 @@
 // Aqui importamos os arquivos
-import Header from "./components/Header"
+import Header from "./components/Header";
 import Lancamentos from "./components/Lancamentos";
 
 // Arquivo principal
@@ -8,6 +8,8 @@ function App() {
   return (
     <>
     <header/>
+    <Lancamentos>
+    </Lancamentos>
     </>
   )
 }
